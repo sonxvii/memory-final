@@ -1,0 +1,40 @@
+.card {
+    position: relative;
+    display: flex;
+    min-width: 200px;
+    max-height: 150px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .card-show {
+    transform: rotateY(180deg);
+  }
+
+  .card-finished {
+    transform: rotateY(180deg);
+    cursor: default;
+  }
+  
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 233, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0; */
+    z-index: 1;
+    /* background-image: url("./../img/bck.jpg"); */
+    border: solid 5px #333;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+  }

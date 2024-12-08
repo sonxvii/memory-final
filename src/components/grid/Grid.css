@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+    padding: 100px 400px;
+}
+
+.imagecards {
+    width: 80%;
+    height: 200px;
+
+}
+
+.cards {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    /* background-color: lavenderblush; */
+    border: solid 5px #333;
+    border-radius: 10px;
+
+}
+
