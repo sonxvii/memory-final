@@ -1,16 +1,16 @@
-import img1 from "./img/cat1.jpg"
-import img2 from "./img/cat2.jpg"
-import img3 from "./img/cat3.jpg"
-import img4 from "./img/cat4.jpg"
-import img5 from "./img/cat5.jpg"
-import img6 from "./img/cat6.jpg"
-import img7 from "./img/cat1.jpg"
-import img8 from "./img/cat2.jpg"
-import img9 from "./img/cat3.jpg"
-import img10 from "./img/cat4.jpg"
-import img11 from "./img/cat5.jpg"
-import img12 from "./img/cat6.jpg"
-// import bck from "./img/bck.jpg"
+import img1 from "./img/bull.jpg"
+import img2 from "./img/colt.jpg"
+import img3 from "./img/shelly.jpg"
+import img4 from "./img/dyno.jpg"
+import img5 from "./img/primo.jpg"
+import img6 from "./img/nita.jpg"
+
+import img7 from "./img/bull.jpg"
+import img8 from "./img/colt.jpg"
+import img9 from "./img/shelly.jpg"
+import img10 from "./img/dyno.jpg"
+import img11 from "./img/primo.jpg"
+import img12 from "./img/nita.jpg"
 
 export const images = [
 {
@@ -61,9 +61,4 @@ export const images = [
     'id': 'twelwe',
     'url': img12,
 }
-,
-// {
-//     'id': 'fon',
-//     'url': bck,
-// }
 ];

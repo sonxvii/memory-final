@@ -1,0 +1,14 @@
+.rules {
+    font-size: 20px;
+    padding: 80px 180px;
+    line-height: 1.5;
+    background-color: transparent; 
+}
+.quote {
+    padding-top: 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.556);
+}
+.title {
+    padding-bottom: 30px;
+}

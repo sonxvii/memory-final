@@ -1,14 +1,14 @@
 .card {
     position: relative;
     display: flex;
-    min-width: 200px;
-    max-height: 150px;
-    margin: 20px auto;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    min-width: 200px;
+    max-height: 150px;
+    margin: 20px auto;
   }
   
   .card-show {
@@ -27,14 +27,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(205, 233, 255);
     background-repeat: no-repeat;
     background-position: center;
-    /* opacity: 0; */
     z-index: 1;
-    /* background-image: url("./../img/bck.jpg"); */
-    border: solid 5px #333;
-    border-radius: 10px;
+    background-image: url("../../img/back.jpg");
+    border: solid 2px black;
+    border-radius: 5px;
     transform: rotateY(0deg);
     backface-visibility: hidden;
   }

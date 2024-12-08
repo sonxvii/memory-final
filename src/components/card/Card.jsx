@@ -17,17 +17,3 @@ export default function Card({ item, isVisible, isFinished, onCardClick }) {
         </div>
     );
 }
-//         const [checkCard, setCheckCard] = useState(false);
-    
-//         const handleClick = () => {
-//             setCheckCard(!checkCard);
-//         }
-    
-//         let className = `card ${checkCard ? 'card-check' : ''}`;
-        
-//     return (
-//         <div className={className} onClick={handleClick}>
-//             <img className='cards imagecards' src={url} alt="card" />
-//         </div>
-//     )
-// };

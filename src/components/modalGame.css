@@ -1,4 +1,26 @@
+
+.button {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+    width: 200px;
+    height: 50px;
+
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background-color: #ffd400;
+}
+
 .modal {
+    background-image: url("../img/main-background.jpg");
     position: fixed;
     top: 0;
     right: 0;
@@ -8,11 +30,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lavenderblush;
+
     overflow-y: hidden;
     overscroll-behavior: contain;
     pointer-events: auto;
-    animation: fadeIn 0.9s 1.6s both;
+    animation: fadeIn 0.3s 1.6s both;
+
 }
 
 @keyframes fadeIn {
@@ -26,40 +49,24 @@
 
 .modal-box {
     position: relative;
-    width: 320px;
-    min-height: 285px;
-    max-height: 100%;
-    padding: 72px 40px 36px;
+    width: 500px;
+    padding: 30px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .modal-caption {
-    margin: 0;
-    margin-bottom: 12px;
-    font-size: 24px;
-    line-height: 32px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .modal-description {
-    margin: 0;
-    margin-bottom: 32px;
-    font-size: 16px;
-    line-height: 22px;
+    margin-bottom: 30px;
+    font-size: 15px;
 }
 
-.modal ,button {
-    width: 100%;
-}
 .modal {
-    background-color: lavenderblush;
-}
-.button {
-    min-height: 40px;
-    border-radius: 6px;
-    background-color: rgb(205, 233, 255);
-    border: solid 1.5px #333;
-    cursor: pointer;
+    background-image: url("../img/main-background.jpg");
 }
